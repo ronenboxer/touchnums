@@ -1,0 +1,87 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(100, 100, 100);
+}
+
+h1 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+
+.restart-button {
+    visibility: hidden;
+}
+
+button {
+    padding: 10px;
+    width: 130px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(96, 139, 96);
+    color: rgb(96, 139, 96);
+    background-color: rgb(198, 198, 198);
+    border-radius: 2px;
+    font-size: larger;
+    transition: opacity 100ms;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+table {
+    margin: auto;
+    border-spacing: 8px;
+    box-shadow: 0 0 20px 1px rgb(57, 57, 57);
+    border-radius: 6px;
+}
+
+td {
+    width: 50px;
+    height: 54px;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    transition: opacity 500ms;
+    transition: 200ms;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+tr {
+    border: 13px solid white;
+}
+
+.marked {
+    background-color: rgb(96, 139, 96);
+}
+
+.not-marked {
+    background-color: rgb(198, 198, 198);
+    transition: opacity 400ms;
+}
+
+.not-marked:hover {
+    background-color: rgb(235, 208, 157);
+    box-shadow: 3px 3px 1.5px rgb(57, 57, 57);
+}
+
+.wrong {
+    background-color: rgb(188, 132, 132);
+}
+
+h2 {
+    color: rgb(255, 136, 136);
+    opacity: 0;
+    transition: opacity 500ms;
+}
