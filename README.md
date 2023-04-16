@@ -1,5 +1,7 @@
 # ToucNums
-A gme where you need to click on the numbers in their natural order (meaning 1, 2, 3 ...)
+A game where you need to click on the numbers in their natural order (meaning 1, 2, 3 ...)
+<br>
+[Play it](https://ronenboxer.github.io/touchnums/)
 
 
 ## Features
